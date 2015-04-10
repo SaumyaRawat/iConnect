@@ -95,7 +95,7 @@ db.define_table('person',
                 Field('state', 'string', length=255, required=True),
                 Field('city', 'string', length=255, required=True),
                 Field('pincode', 'string', length=255, required=False),
-                Field('aboutme', 'text', required=True))
+                Field('aboutme', 'string', required=True))
 ##db.define_table('females',
 ##                db.Field('name', 'string', length=255, required=True),
 ##               db.Field('dob', 'date', required=True),

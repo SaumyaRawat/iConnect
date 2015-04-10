@@ -95,7 +95,8 @@ db.define_table('person',
                 Field('state', 'string', length=255, required=True),
                 Field('city', 'string', length=255, required=True),
                 Field('pincode', 'string', length=255, required=False),
-                Field('aboutme', 'string', required=True))
+                Field('aboutme', 'string', required=True)
+                )
 ##db.define_table('females',
 ##                db.Field('name', 'string', length=255, required=True),
 ##               db.Field('dob', 'date', required=True),
@@ -114,7 +115,8 @@ db.define_table('appearance',
                 Field('complexion', 'string', length=255, required=True),
                 Field('bodytype', 'string', length=255, required=True),
                 Field('height', 'string', length=255, required=True),
-                Field('specialcase','string', required=True))
+                Field('specialcase','string', required=True)
+                )
 db.define_table('edu',
                 Field('highestqual', 'string', length=255, required=True),
                 Field('college', 'string', required=False),
@@ -123,7 +125,8 @@ db.define_table('edu',
                 Field('company', 'string', length=255, required=False),
                 Field('income', 'string', length=255, required=True),
                 Field('income', 'string', length=255, required=True),
-                Field('income', 'string', length=255, required=True))
+                Field('income', 'string', length=255, required=True)
+                )
                 
 db.define_table('interest',
                 Field('smoking', 'string', length=255, required=True),
@@ -137,7 +140,8 @@ db.define_table('interest',
                 Field('books', 'string', length=255, required=False),
                 Field('dest', 'string', length=255, required=False),
                 Field('dest', 'string', length=255, required=False),
-                Field('dest', 'string', length=255, required=False))
+                Field('dest', 'string', length=255, required=False)
+                )
 #ANJALI
 #########################################################################
 

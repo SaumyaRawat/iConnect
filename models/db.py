@@ -109,6 +109,7 @@ db.define_table('person',
 ##                db.Field('aboutme', 'text', required=True),
 ##                migrate='females.table')
 ######################################################################################################
+
 db.define_table('appearance',
                 Field('weight', 'string', length=255, required=True),
                 Field('complexion', 'string', length=255, required=True),
@@ -124,6 +125,7 @@ db.define_table('edu',
                 Field('company', 'string', length=255, required=False),
                 Field('income', 'string', length=255, required=True),
                 migrate='edu.table')
+"""
 db.define_table('interest',
                 Field('smoking', 'string', length=255, required=True),
                 Field('drinking', 'string', required=True),
@@ -136,7 +138,7 @@ db.define_table('interest',
                 Field('books', 'string', length=255, required=False),
                 Field('dest', 'string', length=255, required=False),
                 migrate='interest.table')
-
+"""
 #########################################################################
 
 ## after defining tables, uncomment below to enable auditing

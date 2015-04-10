@@ -127,7 +127,6 @@ db.define_table('edu',
                 Field('income', 'string', length=255, required=True),
                 Field('income', 'string', length=255, required=True),
                 )
-                
 db.define_table('interest',
                 Field('smoking', 'string', length=255, required=True),
                 Field('drinking', 'string', required=True),

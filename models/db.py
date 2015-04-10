@@ -125,7 +125,7 @@ db.define_table('edu',
                 Field('company', 'string', length=255, required=False),
                 Field('income', 'string', length=255, required=True),
                 migrate='edu.table')
-"""
+
 db.define_table('interest',
                 Field('smoking', 'string', length=255, required=True),
                 Field('drinking', 'string', required=True),
@@ -137,8 +137,8 @@ db.define_table('interest',
                 Field('movie', 'string', length=255, required=False),
                 Field('books', 'string', length=255, required=False),
                 Field('dest', 'string', length=255, required=False),
-                migrate='interest.table')
-"""
+               )
+#ANJALI! :D
 #########################################################################
 
 ## after defining tables, uncomment below to enable auditing

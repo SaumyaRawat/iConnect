@@ -95,8 +95,7 @@ db.define_table('person',
                 Field('state', 'string', length=255, required=True),
                 Field('city', 'string', length=255, required=True),
                 Field('pincode', 'string', length=255, required=False),
-                Field('aboutme', 'text', required=True),
-                migrate='males.table')
+                Field('aboutme', 'text', required=True))
 ##db.define_table('females',
 ##                db.Field('name', 'string', length=255, required=True),
 ##               db.Field('dob', 'date', required=True),
@@ -115,16 +114,20 @@ db.define_table('appearance',
                 Field('complexion', 'string', length=255, required=True),
                 Field('bodytype', 'string', length=255, required=True),
                 Field('height', 'string', length=255, required=True),
-                Field('specialcase', 'text', required=True),
-                migrate='appearance.table')
+                Field('specialcase', 'text', required=True))
 db.define_table('edu',
                 Field('highestqual', 'string', length=255, required=True),
                 Field('college', 'string', required=False),
                 Field('employed', 'string', required=True),
                 Field('occupation', 'string', length=255, required=False),
                 Field('company', 'string', length=255, required=False),
+<<<<<<< HEAD
                 Field('income', 'string', length=255, required=True),
                 migrate='edu.table')
+=======
+                Field('income', 'string', length=255, required=True))
+                Field('income', 'string', length=255, required=True))
+>>>>>>> 54c8b36132c970f921706c740d85091a7ddd615b
 
 db.define_table('interest',
                 Field('smoking', 'string', length=255, required=True),
@@ -136,9 +139,17 @@ db.define_table('interest',
                 Field('song', 'string', length=255, required=False),
                 Field('movie', 'string', length=255, required=False),
                 Field('books', 'string', length=255, required=False),
+<<<<<<< HEAD
                 Field('dest', 'string', length=255, required=False),
                )
 #ANJALI! :D
+=======
+                Field('dest', 'string', length=255, required=False))
+
+                Field('dest', 'string', length=255, required=False))
+"""
+>>>>>>> cd113b51c8740d90311e764e4e5fb710c84bd20c
+>>>>>>> 54c8b36132c970f921706c740d85091a7ddd615b
 #########################################################################
 
 ## after defining tables, uncomment below to enable auditing

@@ -108,6 +108,7 @@ db.define_table('person',
 ##                db.Field('aboutme', 'text', required=True),
 ##                migrate='females.table')
 ######################################################################################################
+
 db.define_table('appearance',
                 Field('weight', 'string', length=255, required=True),
                 Field('complexion', 'string', length=255, required=True),
@@ -120,7 +121,13 @@ db.define_table('edu',
                 Field('employed', 'string', required=True),
                 Field('occupation', 'string', length=255, required=False),
                 Field('company', 'string', length=255, required=False),
+<<<<<<< HEAD
                 Field('income', 'string', length=255, required=True))
+=======
+                Field('income', 'string', length=255, required=True),
+                migrate='edu.table')
+"""
+>>>>>>> cd113b51c8740d90311e764e4e5fb710c84bd20c
 db.define_table('interest',
                 Field('smoking', 'string', length=255, required=True),
                 Field('drinking', 'string', required=True),
@@ -131,8 +138,14 @@ db.define_table('interest',
                 Field('song', 'string', length=255, required=False),
                 Field('movie', 'string', length=255, required=False),
                 Field('books', 'string', length=255, required=False),
+<<<<<<< HEAD
                 Field('dest', 'string', length=255, required=False))
 
+=======
+                Field('dest', 'string', length=255, required=False),
+                migrate='interest.table')
+"""
+>>>>>>> cd113b51c8740d90311e764e4e5fb710c84bd20c
 #########################################################################
 
 ## after defining tables, uncomment below to enable auditing

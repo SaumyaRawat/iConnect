@@ -114,7 +114,7 @@ db.define_table('appearance',
                 Field('complexion', 'string', length=255, required=True),
                 Field('bodytype', 'string', length=255, required=True),
                 Field('height', 'string', length=255, required=True),
-                Field('specialcase', 'text', required=True))
+                Field('specialcase','string', required=True))
 db.define_table('edu',
                 Field('highestqual', 'string', length=255, required=True),
                 Field('college', 'string', required=False),
